@@ -1,0 +1,64 @@
+/* RESET */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* CONTENEDOR FLEX */
+.layout{
+    display:flex;
+    min-height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+/* BARRA LATERAL IZQUIERDA */
+.sidebar{
+    width:220px;
+    background:#be2668;
+    padding:20px;
+}
+
+.sidebar ul{
+    list-style:none;
+}
+
+.sidebar li{
+    margin-bottom:20px;
+}
+
+.sidebar a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+/* CONTENIDO DERECHO */
+.content{
+    flex:1;
+    padding:20px;
+    background:#f4f4f4;
+}
+
+/* TARJETAS FLEX */
+.tarjetbox{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    margin-top:20px;
+}
+
+.tarjet{
+    width:300px;
+    background:white;
+    padding:10px;
+    border-radius:8px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tarjet img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:8px;
+}

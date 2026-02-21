@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Acerca de</title>
+
+<style>
+
+
+/* RESET */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* LAYOUT FLEX */
+
+.layout{
+    display:flex;
+    min-height:100vh;
+    font-family:Arial, sans-serif;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+    width:220px;
+    background-color:#be2668;
+    padding:20px;
+}
+
+/* HIPERVINCULO CON ESTILO DE BOTÓN */
+.sidebar a{
+    display:inline-block;
+    padding:10px 15px;
+    background-color:white;
+    color:#be2668;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:6px;
+    transition:0.3s;
+}
+
+.sidebar a:hover{
+    background-color:#ffd6e8;
+}
+
+
+/* CONTENIDO DERECHO */
+
+.content{
+    flex:1;
+    padding:40px;
+    background-color:#f4f4f4;
+}
+
+/* CAJA DE INFORMACIÓN */
+.card-info{
+    max-width:500px;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-info h1{
+    margin-bottom:20px;
+    color:#be2668;
+}
+
+.card-info p{
+    margin-bottom:10px;
+    font-size:16px;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="layout">
+
+    <!-- BARRA LATERAL -->
+    <aside class="sidebar">
+        <a href="index.html">Principal</a>
+    </aside>
+
+    <!-- CONTENIDO -->
+    <main class="content">
+        <div class="card-info">
+            <h1>Acerca de mí</h1>
+            <p><strong>Nombre:</strong> Nad-Xelly Barragán Cruz</p>
+            <p><strong>Carrera:</strong> Ingeniería en Telemática</p>
+            <p><strong>Semestre:</strong> Octavo</p>
+            <p><strong>Materia:</strong> Ingeniería Web</p>
+            
+        </div>
+    </main>
+
+</div>
+
+</body>
+</html>
